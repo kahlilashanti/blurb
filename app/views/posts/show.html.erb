@@ -22,7 +22,32 @@
     </nav>
     <hr>
     <div class="content">
+      <div class="textarea" id="regcontent">
       <%= @post.content %>
+      </div>
+      <div class="level-right">
+        <p class="level-item">
+          <button class="button is-info" id="copy-button" onclick="copyReg()">Copy</button>
+        </p>
+      </div>
+      <hr>
+      <div class="textarea" id="medcontent">
+      <%= @post.medcontent %>
+      </div>
+      <div class="level-right">
+        <p class="level-item">
+          <button class="button is-info">Copy</button>
+        </p>
+      </div>
+      <hr>
+      <div class="textarea" id="shortcontent">
+      <%= @post.shortcontent %>
+      </div>
+      <div class="level-right">
+        <p class="level-item">
+          <button class="button is-info">Copy</button>
+        </p>
+      </div>
     </div>
   </div>
 </section>

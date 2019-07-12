@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190711001443) do
+ActiveRecord::Schema.define(version: 20190711231507) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,8 @@ ActiveRecord::Schema.define(version: 20190711001443) do
     t.text "length"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "medcontent"
+    t.text "shortcontent"
   end
 
 end
