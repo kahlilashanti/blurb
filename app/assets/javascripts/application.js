@@ -13,10 +13,16 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
-const textarea = document.getElementById("regcontent");
 
-function copyReg() {
-  textarea.select();
-  document.execCommand("copy")
+function copyClipboard() {
+  /* Get the text field */
+  const firstText = document.getElementById("regtext").textContent;
 
+  firstText.textContent
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Copied the text: " + firstText.textContent);
 }

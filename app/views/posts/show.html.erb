@@ -23,11 +23,11 @@
     <hr>
     <div class="content">
       <div class="textarea" id="regcontent">
-      <%= @post.content %>
+      <p id="regtext"><%= @post.content %></p>
       </div>
       <div class="level-right">
         <p class="level-item">
-          <button class="button is-info" id="copy-button" onclick="copyReg()">Copy</button>
+          <button class="button is-info" onclick="copyClipboard()">Copy</button>
         </p>
       </div>
       <hr>
