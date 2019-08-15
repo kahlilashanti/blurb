@@ -32,20 +32,20 @@
       </div>
       <hr>
       <div class="textarea" id="medcontent">
-      <%= @post.medcontent %>
+      <p id="regtextMed"><%= @post.medcontent %></p>
       </div>
       <div class="level-right">
         <p class="level-item">
-          <button class="button is-info">Copy</button>
+          <button class="button is-info" onclick="copyMedClipboard()">Copy</button>
         </p>
       </div>
       <hr>
       <div class="textarea" id="shortcontent">
-      <%= @post.shortcontent %>
+      <p id="regtextSM"><%= @post.shortcontent %></p>
       </div>
       <div class="level-right">
         <p class="level-item">
-          <button class="button is-info">Copy</button>
+          <button class="button is-info" onclick="copySMClipboard()">Copy</button>
         </p>
       </div>
     </div>

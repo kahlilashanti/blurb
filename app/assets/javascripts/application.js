@@ -14,15 +14,44 @@
 //= require turbolinks
 //= require_tree .
 
+// copy text from long version
 function copyClipboard() {
   /* Get the text field */
   const firstText = document.getElementById("regtext").textContent;
 
-  firstText.textContent
+  // firstText.textContent - didn't need this at all
 
   /* Copy the text inside the text field */
-  document.execCommand("copy");
+  document.execCommand('copy');
 
   /* Alert the copied text */
-  alert("Copied the text: " + firstText.textContent);
+  alert("Copied the text: " + firstText);
+}
+
+// copy text from med version
+function copyMedClipboard() {
+  /* Get the text field */
+  const firstText = document.getElementById("regtextMed").textContent;
+
+  // firstText.textContent - didn't need this at all
+
+  /* Copy the text inside the text field */
+  document.execCommand('copy');
+
+  /* Alert the copied text */
+  alert("Copied the text: " + firstText);
+}
+
+// copy text from short version
+function copySMClipboard() {
+  /* Get the text field */
+  const firstText = document.getElementById("regtextSM").textContent;
+
+  // firstText.textContent - didn't need this at all
+
+  /* Copy the text inside the text field */
+  document.execCommand('copy');
+
+  /* Alert the copied text */
+  alert("Copied the text: " + firstText);
 }
