@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
 # better errors
 gem 'better_errors', '~> 2.5', '>= 2.5.1'
 
@@ -58,7 +59,13 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
+  gem 'rb-readline'
+
   gem 'guard', '~> 2.15'
+
+  gem 'hirb', '~> 0.7.3'
+  gem 'interactive_editor', '~> 0.0.11'
+  gem 'awesome_print', '~> 1.8'
 
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 end
