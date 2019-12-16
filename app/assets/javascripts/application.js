@@ -55,3 +55,26 @@ function copySMClipboard() {
   /* Alert the copied text */
   alert("Copied the text: " + firstText);
 }
+
+// //copy pass to clipboard (example from password generator)
+// clipboardEl.addEventListener('click', ()=> {
+//   //create a DOM element
+//   const textarea = document.createElement('textarea');
+//   // grab the password value we have already generated
+//   const password = resultEl.innerText;
+
+//   //if the password field is blank we do nothing
+//   if(!password){
+//       return
+//   };
+//   //otherwise return the value of the textarea with value of password into it
+//   textarea.value = password
+//   document.body.appendChild(textarea);
+//   textarea.select();
+//   // to copy to clipboard
+//   document.execCommand('copy');
+//   // then remove textarea
+//   textarea.remove();
+//   //let user know it's copied
+//   alert('password copied to clipboard!');
+// });
