@@ -4,4 +4,8 @@ Rails.application.routes.draw do
   resources :posts
 
   root "posts#index"
+
+  # Service Worker Routes
+  get '/service-worker.js' => "service_worker#service_worker"
+  get '/manifest.json' => "service_worker#manifest"
 end
