@@ -47,7 +47,7 @@ gem 'better_errors', '~> 2.5', '>= 2.5.1'
 gem 'bulma-rails', '~> 0.7.5'
 
 #simple form
-gem 'simple_form', '~> 4.1'
+gem 'simple_form', '~> 5.0'
 
 #authentication
 gem 'devise', '~> 4.7', '>= 4.7.1'
