@@ -33,6 +33,8 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#deploy to rails
+gem 'rails_12factor', group: :production
 
 # better errors
 gem 'better_errors', '~> 2.5', '>= 2.5.1'
