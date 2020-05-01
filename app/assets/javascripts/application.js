@@ -78,3 +78,4 @@ function copySMClipboard() {
 //   //let user know it's copied
 //   alert('password copied to clipboard!');
 // });
+//= require serviceworker-companion
